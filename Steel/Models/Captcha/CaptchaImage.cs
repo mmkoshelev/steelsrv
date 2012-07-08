@@ -1,4 +1,4 @@
-using System;
+п»їusing System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
@@ -9,12 +9,12 @@ namespace Steel.Models.Captcha
     public sealed class CaptchaImage
     {
         /// <summary>
-        /// Доступные символы для использования в капче
+        /// Р”РѕСЃС‚СѓРїРЅС‹Рµ СЃРёРјРІРѕР»С‹ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РІ РєР°РїС‡Рµ
         /// </summary>
         public static readonly string PosibleChars = "ABCDEFGHIJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz123456789!@#$%&*";
 
         /// <summary>
-        /// Ширина капчи
+        /// РЁРёСЂРёРЅР° РєР°РїС‡Рё
         /// </summary>
         public int Width
         {
@@ -25,7 +25,7 @@ namespace Steel.Models.Captcha
         }
 
         /// <summary>
-        /// Высота капчи
+        /// Р’С‹СЃРѕС‚Р° РєР°РїС‡Рё
         /// </summary>
         public int Height
         {
@@ -36,33 +36,33 @@ namespace Steel.Models.Captcha
         }
 
         /// <summary>
-        /// Количество символов в капче
+        /// РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ РІ РєР°РїС‡Рµ
         /// </summary>
         public int SymbolsCount { get; private set; }
 
         /// <summary>
-        /// Избражение капчи
+        /// РР·Р±СЂР°Р¶РµРЅРёРµ РєР°РїС‡Рё
         /// </summary>
         public Bitmap Image { get; private set; }
 
         /// <summary>
-        /// Текст капчи
+        /// РўРµРєСЃС‚ РєР°РїС‡Рё
         /// </summary>
         public string Text { get; private set; }
 
         /// <summary>
-        /// Создание капчи по умолчнинию 200 х 100 из 4 символов
+        /// РЎРѕР·РґР°РЅРёРµ РєР°РїС‡Рё РїРѕ СѓРјРѕР»С‡РЅРёРЅРёСЋ 200 С… 100 РёР· 4 СЃРёРјРІРѕР»РѕРІ
         /// </summary>
         public CaptchaImage()
             : this(200, 100, 4)
         { }
 
         /// <summary>
-        /// Конструктор создания капчи
+        /// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃРѕР·РґР°РЅРёСЏ РєР°РїС‡Рё
         /// </summary>
-        /// <param name="width">Ширина</param>
-        /// <param name="height">Высота</param>
-        /// <param name="symbolsCount">Количиство символов</param>
+        /// <param name="width">РЁРёСЂРёРЅР°</param>
+        /// <param name="height">Р’С‹СЃРѕС‚Р°</param>
+        /// <param name="symbolsCount">РљРѕР»РёС‡РёСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ</param>
         public CaptchaImage(int width, int height, int symbolsCount)
         {
             Image = new Bitmap(width, height);
@@ -88,10 +88,10 @@ namespace Steel.Models.Captcha
             g.SmoothingMode = SmoothingMode.HighQuality;
             g.TextRenderingHint = TextRenderingHint.AntiAlias;
 
-            // Заливаем площадь
+            // Р—Р°Р»РёРІР°РµРј РїР»РѕС‰Р°РґСЊ
             g.FillRectangle(new SolidBrush(Color.FromArgb(230,230,230)), new Rectangle(0, 0, Image.Width, Image.Height));
 
-            // Рисуем каждую букавку
+            // Р РёСЃСѓРµРј РєР°Р¶РґСѓСЋ Р±СѓРєР°РІРєСѓ
             Font f = new Font("Verdana", Height/2f, FontStyle.Bold);
             Random r = new Random();
             float x = r.Next(0, 10);
@@ -109,7 +109,7 @@ namespace Steel.Models.Captcha
                 g.ResetTransform();
             }
 
-            // Куча точек
+            // РљСѓС‡Р° С‚РѕС‡РµРє
             for (int i = 0; i < Image.Width*Image.Height/7; i++)
             {
                 Point p = new Point(r.Next(0, Image.Width), r.Next(0, Image.Height));
