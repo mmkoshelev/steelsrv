@@ -1,0 +1,119 @@
+﻿<%@ Import Namespace="Steel.Models"%>
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ООО "Сталь Сервис" Тверь</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="../../Content/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="keywords" content="сталь сервис сталь-сервис металл фанера арматура труба стальная труба профильная металлопрокат швеллер уголки Тверь сетка osb, металл фанера в твери арматура труба стальная труба профильная металлопрокат швеллер уголки Тверь сетка osb" />
+    <meta name="description" content="сталь сервис сталь-сервис металл фанера арматура труба стальная труба профильная металлопрокат швеллер уголки Тверь сетка osb, металл фанера в твери арматура труба стальная труба профильная металлопрокат швеллер уголки Тверь сетка osb" />
+    <link href="../../Content/images/favicon.ico" rel="Shortcut Icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="TitleContent" runat="server" />    
+</head>
+<body>
+    <div id="main">
+        <div id="header">            
+            <div id="buttons">
+                <ul>
+                    <li class="first"><%= Html.ActionLink("О Компании", "Index", "About") %></li>
+                    <li><%= Html.ActionLink("Товар", "Index", "Service") %></li>
+                    <li><%= Html.ActionLink("Услуги", "All", "Service")%></li>
+                    <li><%= Html.ActionLink("Прайс-лист", "Index", "Price")%></li>
+                    <li><%= Html.ActionLink("Контакты", "Index", "Contacts")%></li>
+                    <li><%= Html.ActionLink("Сотрудники", "Index", "Employee")%></li>
+                    <li><%= Html.ActionLink("Гостевая", "Index", "Guest")%></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="right">
+                <div id="sidebar">                    
+                    <ul>
+                        <li>
+                            <h2>Важно</h2>
+                            <ul>
+                                <li>
+                                    <p style="text-align:justify;">
+                                        Уважаемые клиенты! Мы рады видеть вас в качестве своего партнера и благодарим за 
+                                        сотрудничество. Понимая необходимость в своевременной информации о тенденциях рынка 
+                                        при планировании Вами закупок металлопроката, сообщаем Вам о текущей ситуации на 
+                                        рынке: всвязи с ростом себесестоимости производства металлопроката в последнее время 
+                                        отчетливо прослеживатся тенденция роста его цен на рынке.И эта тенденция сохранится. 
+                                        Поэтому сохранить прайсовую цену более одного дня не представляется возможным. 
+                                        Уточняйте стоимость товара у менеджера.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <asp:ContentPlaceHolder ID="LeftMenuContent" runat="server" /> 
+                        <li>
+                            <h2>
+                                Информация
+                            </h2>
+                            <ul>
+                                <li>
+                                    <h3>Презентация</h3>
+                                    <p> 
+                                        <%= Html.ActionLink("Просмотр презентации", "Presentation", "About") %>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Прайс-лист</h3>
+                                    <p>
+                                        <a href="/price.xls">Скачать прайс-лист</a><br />
+                                        <% if (UserAuth.IsAuthenticated()) { %>
+                                            <%= Html.ActionLink("Обновить", "Load", "Price") %>
+                                        <% } %> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Наш адрес</h3>
+                                    <p style="color:#3886E0;">г. Тверь, пл. Гагарина, дом 1</p>
+                                </li>
+                                <li>
+                                    <h3>Наши телефоны</h3>
+                                    <p style="color:#3886E0;">419-419, 336-810<br /> 
+                                        336-811, 336-812 <br />
+                                        Код города (4822)
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>                       
+                        <%--<li>
+                            <h2>
+                                Новости
+                            </h2>
+                            <ul>
+                                <% Html.RenderPartial("LatestNews"); %>
+                                <li>
+                                    <h3>
+                                        Новости
+                                    </h3>
+                                    <p>
+                                        <%= Html.ActionLink("Все новости...", "Index", "News") %>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>--%>
+                    </ul>
+                </div>
+            </div>
+            <div id="left">
+                 <asp:ContentPlaceHolder ID="MainContent" runat="server" />              
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="footer">
+            <p>
+                Copyright &copy; 2009. ООО "Сталь Сервис"</p>
+            <p>
+                металл фанера арматура труба стальная труба профильная металлопрокат швеллер уголки
+            </p>
+        </div>
+    </div>
+    <div style="display:none;">СТАЛЬ СЕРВИС, СТАЛЬ - СЕРВИС, ТВЕРЬ, АРМАТУРА, БАЛКА, КАТАНКА, КВАДРАТ, КРУГ, ЛИСТ Г/К, ЛИСТ ОЦИНКОВАННЫЙ, ЛИСТ ФЛЕНЫЙ, ЛИСТ Х/К, ПОЛОСА, OSB, ТРУБА Б/Ш, ТРУБА ВГП, ТРУБА ОЦИНКОВАННАЯ, ТРУБА ПРОФИЛЬНАЯ, ТРУБА ЭЛ/СВ., УГОЛОК, ШВЕЛЛЕР, ФАНЕРА, РАДИАТОР, ПРОВОЛОКА, ЦЕМЕНТ, ЭЛЕКТРОДЫ, БИТУМ, ПЕНОПЛАСТ, КЕРАМЗИТ, ПЕРГАМИН, РУБЕРОИД, СЕТКА КЛАДОЧНАЯ, ДОРОЖНАЯ, СЕТКА РАБИЦА, УТЕПЛИТЕЛЬ Тверь</div>
+</body>
+</html>

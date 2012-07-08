@@ -1,0 +1,337 @@
+a
+{
+	color: #3886E0;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+*
+{
+	border: 0;
+	margin: 0;
+}
+
+body
+{
+	background: #ffffff url(images/back_all.gif) repeat-x top;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin-top: 10px;
+}
+
+#main
+{
+	margin: 0 auto;
+	width: 912px;
+	/*background: url(images/table_back.jpg) repeat-y;*/
+}
+
+#header
+{
+	background: url(images/header.jpg) no-repeat;
+	width: 912px;
+	height: 189px;
+}
+
+#logo
+{
+	padding-left: 40px;
+	text-align: left;
+	padding-top: 40px;
+	height: 40px;
+}
+
+#logo a
+{
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+#logo H2 a
+{
+	font-size: 10px;
+}
+
+#buttons
+{
+	padding-top: 147px;
+	height: 40px;
+	padding-left: 0px;
+}
+
+#buttons li
+{
+	display: inline;
+}
+
+#buttons a
+{
+	display: block;
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 1px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+#buttons a:hover
+{
+	font-size: 18px;
+}
+
+#content
+{
+	width: 880px;
+	padding: 15px;
+	background: url(images/a.jpg) no-repeat;
+}
+
+#content1
+{
+	width: 880px;
+	padding: 15px;
+	background: url(images/a1.jpg) no-repeat;
+}
+
+#left
+{
+	width: 575px;
+	padding: 40px 10px 40px 40px;
+	min-height: 500px;
+}
+
+#left H1
+{
+	color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+}
+
+#left H2
+{
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+#left hr
+{
+	background-color: #bbbbbb;
+	color: #bbbbbb;
+	border: solid 1px #bbbbbb;
+	margin: 3px 0px 15px 0px;
+}
+
+.small
+{
+	margin: 15px auto 15px auto;
+	padding: 10px 5px 10px 5px;
+	border: 2px solid #DDCCDE;
+	width: 430px;
+}
+
+.small2
+{
+	margin: 15px auto 15px auto;
+	padding: 5px 20px 15px 45px;
+	border: 2px solid #DDCCDE;
+	background-color: White;
+	width: 470px;
+}
+
+.small2-captcha
+{
+	margin: 15px auto 15px auto;
+	padding: 5px 20px 15px 45px;
+	width: 470px;
+	border: 2px solid #DDCCDE;
+}
+
+.small2 div
+{
+	padding-left: 70px;
+}
+
+.small3
+{
+	margin: 1px auto 1px auto;
+	padding: 1px 1px 1px 1px;
+	border: 2px solid #DDCCDE;
+	width: 545px;
+}
+
+.small3 ul
+{
+	padding: 14px;
+}
+
+.small3 li
+{
+	display: inline;
+}
+
+#right
+{
+	float: right;
+	width: 220px;
+	margin-right: 35px;
+	margin-top: 40px;
+}
+
+#sidebar
+{
+	width: 220px;
+}
+
+#sidebar ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#sidebar li
+{
+	margin-bottom: 15px;
+}
+
+#sidebar li ul
+{
+	padding: 10px;
+	border-top: none;
+	border-left: solid 2px #DDDDDD;
+	border-right: solid 2px #DDDDDD;
+	border-bottom: solid 2px #DDDDDD;
+	background-color: #EFEFEF;
+}
+
+#sidebar li li
+{
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+#sidebar li h2
+{
+	height: 28px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: url(images/title.png) no-repeat;
+	font-size: 16px;
+	color: #000000;
+}
+
+#sidebar li a
+{
+	padding-left: 10px;
+	background: url(images/img09.gif) no-repeat 1px 5px;
+}
+
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height: 52px;
+	font-size: 10px;
+	color: #3886E0;
+	padding-top: 20px;
+	text-align: center;
+	border-top: #DDDDDD solid 5px;
+}
+
+#footer a
+{
+	color: #3886E0;
+	font-size: 10px;
+	text-decoration: none;
+}
+.padding
+{
+	padding: 10px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#left p
+{
+	text-align: justify;
+}
+
+table.rezka td
+{
+	border: solid 1px #bbbbbb;
+	padding: 2px;
+}
+
+table.price
+{
+	width: 500px;
+}
+
+table.price td
+{
+	border: solid 1px #bbbbbb;
+	padding: 2px;
+}
+
+.field-validation-error
+{
+	color: #ff0000;
+}
+
+.input-validation-error
+{
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.news
+{
+	padding: 7px;
+	background-color: #DDCCDE;
+	margin-bottom: 0px;
+	/*border-bottom: solid 2px #bbbbbb;*/
+}
+
+.newscontent
+{
+	border-left: solid 2px #DDCCDE;
+	border-right: solid 2px #DDCCDE;
+	border-bottom: solid 2px #DDCCDE;
+	padding:10px;
+	background-color:White;
+}
+
+#silverlightControlHost
+{
+	height: 100px;
+}
+
+input, textarea
+{
+	border:solid 1px #ccc;
+}
