@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SteelDB">
+  <DataContextMoniker Name="/SteelDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="384c01ee-2037-459f-af09-024578baa462" absoluteBounds="0.625, 0.625, 2, 1.26050048828125">
+      <DataClassMoniker Name="/SteelDBDataContext/ProductGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c59e9f6e-f3b1-461b-ae46-7bca157b20cf" absoluteBounds="0.64, 1.085, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de0c6892-3c62-42a1-80a4-b7c3e2960ae6" absoluteBounds="3.625, 1.5, 2, 1.75354248046875">
+      <DataClassMoniker Name="/SteelDBDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84e0a486-592f-45c0-a984-f10910798fcb" absoluteBounds="3.64, 1.96, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 1.69275024414063); (3.625 : 1.69275024414063)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SteelDBDataContext/ProductGroup/ProductGroup_Product" />
+      <nodes>
+        <classShapeMoniker Id="384c01ee-2037-459f-af09-024578baa462" />
+        <classShapeMoniker Id="de0c6892-3c62-42a1-80a4-b7c3e2960ae6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="db0427e3-5d00-4fd4-8149-38e99e0fe4e8" absoluteBounds="0.75, 3.125, 2, 1.75354248046875">
+      <DataClassMoniker Name="/SteelDBDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23ebc7bb-3120-4ac6-8605-457a066856ad" absoluteBounds="0.765, 3.585, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6b041254-eb63-4b20-8484-44f60398f728" absoluteBounds="3.75, 4.5, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/SteelDBDataContext/GuestMessage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6721bc9a-eebd-4480-9249-1592b1995ca6" absoluteBounds="3.765, 4.96, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d7cf2dc-60a5-4932-9445-0464ce3ba1ee" absoluteBounds="0.625, 5.875, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/SteelDBDataContext/New" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c2ae5f3-63d2-47a9-9655-4517dd61d240" absoluteBounds="0.64, 6.335, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

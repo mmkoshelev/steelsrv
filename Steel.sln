@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steel", "Steel\Steel.csproj", "{7E9D94A2-8C25-4CCF-953D-1683FF66E5AA}"
 EndProject
 Global

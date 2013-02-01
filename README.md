@@ -1,4 +1,0 @@
-steelsrv
-========
-
-Simple site

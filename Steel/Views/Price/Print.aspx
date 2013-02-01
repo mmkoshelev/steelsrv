@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>ООО "Сталь Сервис" прайс-лист</title>
+    <title>ООО "Сталь-Маркет" прайс-лист</title>
 </head>
 <body style="font-family: Lucida Sans Unicode, Verdana; font-size: 8pt;">
     <div style="width: 840px; margin-left: auto; margin-right: auto; margin-top: 10px;
@@ -33,7 +33,7 @@
                 <tr>
                     <td colspan="2">
                         Время работы: 8.30 - 17.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Выписка документов:
-                        8.30 - 17.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отгрузка товара: 7.00 - 21.00
+                        8.30 - 17.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отгрузка товара: 8.00 - 17.30
                     </td>
                 </tr>
             </table>

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E9D94A2-8C25-4CCF-953D-1683FF66E5AA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Steel</RootNamespace>
+    <AssemblyName>Steel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Employee\5b2f1a4f-be93-482a-a10f-20cf0c984110.jpg" />
+    <Content Include="Content\Employee\60795006-aa2b-47bc-a00a-6d4633e8b1f1.jpg" />
+    <Content Include="Content\Employee\a2f1d94f-2dce-4378-8357-e4b57b1ca732.jpg" />
+    <Content Include="Content\images\1.jpg" />
+    <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\3.jpg" />
+    <Content Include="Content\images\a.jpg" />
+    <Content Include="Content\images\a1.jpg" />
+    <Content Include="Content\images\back_all.gif" />
+    <Content Include="Content\images\bigmap.jpg" />
+    <Content Include="Content\images\bottomp.jpg" />
+    <Content Include="Content\images\bottomp.png" />
+    <Content Include="Content\images\favicon.ico" />
+    <Content Include="Content\images\footer.gif" />
+    <Content Include="Content\images\gazel.jpg" />
+    <Content Include="Content\images\gkart.JPG" />
+    <Content Include="Content\images\header.jpg" />
+    <Content Include="Content\images\header1.jpg" />
+    <Content Include="Content\images\header2.jpg" />
+    <Content Include="Content\images\header_.jpg" />
+    <Content Include="Content\images\headp.jpg" />
+    <Content Include="Content\images\headp.png" />
+    <Content Include="Content\images\img09.gif" />
+    <Content Include="Content\images\kamaz.jpg" />
+    <Content Include="Content\images\mapa.jpg" />
+    <Content Include="Content\images\maz.jpg" />
+    <Content Include="Content\images\metal\11897566751.jpg" />
+    <Content Include="Content\images\metal\balka1m.jpg" />
+    <Content Include="Content\images\metal\balka2m.jpg" />
+    <Content Include="Content\images\metal\katanka1m.jpg" />
+    <Content Include="Content\images\metal\katanka2m.jpg" />
+    <Content Include="Content\images\metal\krug1m.jpg" />
+    <Content Include="Content\images\metal\krug2m.jpg" />
+    <Content Include="Content\images\metal\kvadrat1m.jpg" />
+    <Content Include="Content\images\metal\kvadrat2m.jpg" />
+    <Content Include="Content\images\metal\list2.jpg" />
+    <Content Include="Content\images\metal\list2m.jpg" />
+    <Content Include="Content\images\metal\list3.jpg" />
+    <Content Include="Content\images\metal\list_10.jpg" />
+    <Content Include="Content\images\metal\list_4.jpg" />
+    <Content Include="Content\images\metal\list_6.jpg" />
+    <Content Include="Content\images\metal\list_7.jpg" />
+    <Content Include="Content\images\metal\list_bt1m.jpg" />
+    <Content Include="Content\images\metal\LofM-03.jpg" />
+    <Content Include="Content\images\metal\polosa3m.jpg" />
+    <Content Include="Content\images\metal\polosa4.jpg" />
+    <Content Include="Content\images\metal\shveller1m.jpg" />
+    <Content Include="Content\images\metal\shveller2m.jpg" />
+    <Content Include="Content\images\metal\truba.jpg" />
+    <Content Include="Content\images\metal\truba2.jpg" />
+    <Content Include="Content\images\metal\truba2m.jpg" />
+    <Content Include="Content\images\metal\truba5.jpg" />
+    <Content Include="Content\images\metal\truba_9.jpg" />
+    <Content Include="Content\images\metal\truba_krugla9.jpg" />
+    <Content Include="Content\images\metal\truba_profilna9.jpg" />
+    <Content Include="Content\images\metal\ugolok1m.jpg" />
+    <Content Include="Content\images\metal\ugolok2m.jpg" />
+    <Content Include="Content\images\pencil.png" />
+    <Content Include="Content\images\stroi\1158853551.jpg" />
+    <Content Include="Content\images\stroi\1177593627t.jpg" />
+    <Content Include="Content\images\stroi\1179328487t.jpg" />
+    <Content Include="Content\images\stroi\180301.jpg" />
+    <Content Include="Content\images\stroi\1_b.jpg" />
+    <Content Include="Content\images\stroi\2007-01-20_02h-21m-44s_big.jpg" />
+    <Content Include="Content\images\stroi\2021b.jpg" />
+    <Content Include="Content\images\stroi\cm1.jpg" />
+    <Content Include="Content\images\stroi\cm2.jpg" />
+    <Content Include="Content\images\stroi\DSC00276.jpg" />
+    <Content Include="Content\images\stroi\DSC00280.jpg" />
+    <Content Include="Content\images\stroi\e1.jpg" />
+    <Content Include="Content\images\stroi\e2.jpg" />
+    <Content Include="Content\images\stroi\i.jpg" />
+    <Content Include="Content\images\stroi\i1.jpg" />
+    <Content Include="Content\images\stroi\i2.jpg" />
+    <Content Include="Content\images\stroi\i3.jpg" />
+    <Content Include="Content\images\stroi\i4.jpg" />
+    <Content Include="Content\images\stroi\k1.jpg" />
+    <Content Include="Content\images\stroi\k2.jpg" />
+    <Content Include="Content\images\stroi\LofM-09.jpg" />
+    <Content Include="Content\images\stroi\osb3.jpg" />
+    <Content Include="Content\images\stroi\p1.jpg" />
+    <Content Include="Content\images\stroi\p2.jpg" />
+    <Content Include="Content\images\stroi\p541.jpg" />
+    <Content Include="Content\images\stroi\pic408cf1e7091bc.jpg" />
+    <Content Include="Content\images\stroi\r1.jpg" />
+    <Content Include="Content\images\stroi\r2.jpg" />
+    <Content Include="Content\images\stroi\ss1.jpg" />
+    <Content Include="Content\images\stroi\ss2.jpg" />
+    <Content Include="Content\images\stroi\su1.jpg" />
+    <Content Include="Content\images\stroi\su2.jpg" />
+    <Content Include="Content\images\title.gif" />
+    <Content Include="Content\images\title.png" />
+    <Content Include="Content\images\title_back.gif" />
+    <Content Include="Content\images\title_bottom.gif" />
+    <Content Include="Content\images\tver_s.jpg" />
+    <Content Include="Content\images\zil.jpg" />
+    <Content Include="Content\styles.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Presentation\Default.html" />
+    <Content Include="Presentation\MediaPlayerTemplate.xap" />
+    <Content Include="Presentation\Silverlight.exe" />
+    <Content Include="Presentation\steel.wmv" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Views\About\Error.aspx" />
+    <Content Include="Views\About\Index.aspx" />
+    <Content Include="Views\About\Presentation.aspx" />
+    <Content Include="Views\Admin\Index.aspx" />
+    <Content Include="Views\Contacts\Index.aspx" />
+    <Content Include="Views\Delivery\Index.aspx" />
+    <Content Include="Views\Delivery\ServiceMenu2.ascx" />
+    <Content Include="Views\Employee\Create.aspx" />
+    <Content Include="Views\Employee\Edit.aspx" />
+    <Content Include="Views\Employee\Index.aspx" />
+    <Content Include="Views\Guest\Edit.aspx" />
+    <Content Include="Views\Guest\Index.aspx" />
+    <Content Include="Views\News\Create.aspx" />
+    <Content Include="Views\News\Edit.aspx" />
+    <Content Include="Views\News\Index.aspx" />
+    <Content Include="Views\Price\Create.aspx" />
+    <Content Include="Views\Price\Edit.aspx" />
+    <Content Include="Views\Price\Index.aspx" />
+    <Content Include="Views\Price\Load.aspx" />
+    <Content Include="Views\Price\Print.aspx" />
+    <Content Include="Views\Price\QuickEdit.aspx" />
+    <Content Include="Views\ProductGroup\Create.aspx" />
+    <Content Include="Views\ProductGroup\Edit.aspx" />
+    <Content Include="Views\ProductGroup\Index.aspx" />
+    <Content Include="Views\Service\All.aspx" />
+    <Content Include="Views\Service\Index.aspx" />
+    <Content Include="Views\Service\Metal.aspx" />
+    <Content Include="Views\Service\Rezka.aspx" />
+    <Content Include="Views\Service\ServiceMenu.ascx" />
+    <Content Include="Views\Service\ServiceMenu2.ascx" />
+    <Content Include="Views\Service\Stroi.aspx" />
+    <Content Include="Views\Shared\CaptchaView.ascx" />
+    <Content Include="Views\Shared\LatestNews.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ContactsController.cs" />
+    <Compile Include="Controllers\DeliveryController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\GuestController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\PriceController.cs" />
+    <Compile Include="Controllers\ProductGroupController.cs" />
+    <Compile Include="Controllers\ServiceController.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Captcha\CaptchaImage.cs" />
+    <Compile Include="Models\Captcha\CaptchaImageController.cs" />
+    <Compile Include="Models\Captcha\CheckCaptchaFilterAttribute.cs" />
+    <Compile Include="Models\DAL\SteelDB.designer.cs" />
+    <Compile Include="Models\ImageHelper.cs" />
+    <Compile Include="Models\UserAuth.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\DAL\SteelDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SteelDB1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="price.xls" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Shared\Site1.Master" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\DAL\SteelDB.dbml.layout">
+      <DependentUpon>SteelDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58489</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

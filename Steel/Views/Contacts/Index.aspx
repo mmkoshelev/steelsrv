@@ -9,12 +9,14 @@
             Контакты</h1>
     </center>
     <div style="padding-left: 80px; padding-top: 20px;">        
-        Генеральный директор: <b>Иванова Светлана Алексеевна</b>
+        Директор: <b>Пучина Людмила Владимировна</b> (действует на основании Устава)
+        <br />
+        Главный бухгалтер: <b>Пучина Людмила Владимировна</b>
         <br />
         <br />
         Время работы: <b>8.30 - 17.30</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Выписка документов: <b>8.30 - 17.30</b>
         <br />
-        Отгрузка товара: <b>7.00 - 21.00</b> (суббота и воскресенье выходные дни)
+        Отгрузка товара: <b>8.00 - 17.30</b> (суббота и воскресенье выходные дни)
         <br />
         <br />
         <table border="0" cellpadding="15" cellspacing="0">
@@ -67,7 +69,7 @@
         <div>
             Россия, г. Тверь, пл. Гагарина, дом 1</div>
         <br />
-        <a target="_blank" href="http://maps.yandex.ru/?um=0ZjkvSArQsAI2hB-ilLCPxRJzQLvcj3r&l=map">«ООО Сталь Сервис» на Яндекс.Картах</a>
+        <a target="_blank" href="http://maps.yandex.ru/?um=0ZjkvSArQsAI2hB-ilLCPxRJzQLvcj3r&l=map">«ООО Сталь-Маркет» на Яндекс.Картах</a>
     </center>
     <div class="small">
         <center>
