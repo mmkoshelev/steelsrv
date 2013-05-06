@@ -17,7 +17,7 @@
                     </td>
                     <td>
                         <div>
-                            По городу - 500 руб /  2 часа
+                            По городу - 700 руб
                         </div>
                     </td>
                 </tr>
@@ -27,15 +27,59 @@
                     </td>
                     <td>
                         <div>
-                            Грузоподъемность - 1,5 т.
-                            <br />
-                            Длина - 3 м.
+                            Длина - 6 м.
                         </div>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="small2">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="padding: 10px 0 10px 0">
+                        <img src="../../Content/images/valday.jpg" width="120" height="61" />
+                    </td>
+                    <td>
+                        <div>
+                            По городу - 1200 руб
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <b>Валдай</b>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="small2">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="padding: 10px 0 10px 0">
+                        <img src="../../Content/images/dlinnomer.jpg" width="120" height="61" />
+                    </td>
+                    <td>
+                        <div>
+                            По городу - 1000 руб / час (минимально 3 часа)
+                            <br />
+                            за Волгу минимум 4 часа
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <b>Длинномер</b>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <%--<div class="small2">
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>
@@ -60,7 +104,7 @@
                     </td>
                 </tr>
             </table>
-        </div>
+        </div>--%>
         <%--<div class="small2">
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
@@ -89,7 +133,7 @@
                 </tr>
             </table>
         </div>--%>
-        <div class="small2">
+       <%-- <div class="small2">
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>
@@ -114,7 +158,7 @@
                     </td>
                 </tr>
             </table>
-        </div>
+        </div>--%>
         <center>
             <div>
                 Осуществляем доставку по городу Твери, Тверской области, другим городам.
