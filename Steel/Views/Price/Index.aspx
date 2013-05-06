@@ -25,7 +25,7 @@
                 <tr>
                     <td style="width:60%;"><i>Номенклатура</i></td>
                     <td><i>Цена за ед. изм.</i></td>
-                    <td><i>Цена за метр</i></td>
+                    <td><i><%= (group.Name.ToLower().Contains("лист") ? "Цена за лист" : "Цена за метр") %></i></td>
                     <% if ((bool)ViewData["Auth"]) {%>
                         <td style="width:60px;">&nbsp;</td>
                     <% } %>
