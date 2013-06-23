@@ -33,7 +33,7 @@
                 <tr>
                     <td colspan="2">
                         Время работы: 8.30 - 17.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Выписка документов:
-                        8.30 - 17.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отгрузка товара: 8.00 - 17.30
+                        8.30 - 17.30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отгрузка товара: 7.00 - 21.00
                     </td>
                 </tr>
             </table>

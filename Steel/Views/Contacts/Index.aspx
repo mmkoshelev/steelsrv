@@ -16,13 +16,13 @@
         <br />
         Время работы: <b>8.30 - 17.30</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Выписка документов: <b>8.30 - 17.30</b>
         <br />
-        Отгрузка товара: <b>8.00 - 17.30</b> (суббота и воскресенье выходные дни)
+        Отгрузка товара: <b>7.00 - 21.00</b> (суббота и воскресенье выходные дни)
         <br />
         <br />
         <table border="0" cellpadding="15" cellspacing="0">
             <tr>
                 <td valign="top" style="padding-top: 1px;">
-                    e-mail: <a href="mailto:stalservistver@mail.ru">stalservistver@mail.ru</a>
+                    e-mail: <a href="mailto:stal_market@mail.ru">stal_market@mail.ru</a>
                 </td>
                 <td valign="top" style="padding-top: 0px;">
                     <table border="0" cellpadding="5" cellspacing="0">
